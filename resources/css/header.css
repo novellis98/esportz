@@ -1,0 +1,45 @@
+.navbar {
+    background-color: var(--background);
+}
+.navbar-brand {
+    color: var(--link-color);
+}
+.navbar-brand:hover {
+    color: var(--link-color--hover);
+}
+.nav-link {
+    color: var(--link-color);
+}
+.nav-link:hover {
+    color: var(--link-color--hover);
+}
+.navbar-nav .nav-link.active,
+.navbar-nav .nav-link.show {
+    color: var(--link-color--hover);
+}
+
+.navbar-toggler {
+    color: var(--link-color);
+    border: none;
+}
+.navbar-toggler:hover {
+    color: var(--link-color--hover);
+}
+.navbar-toggler:focus {
+    box-shadow: 0 0 0 0;
+}
+
+.bi-moon,
+.bi-brightness-high {
+    color: var(--link-color);
+}
+#darkmode {
+    border: none;
+    background-color: transparent;
+    text-shadow: 0, 0, 0, 0;
+}
+#darkmode2 {
+    border: none;
+    background-color: transparent;
+    text-shadow: 0, 0, 0, 0;
+}

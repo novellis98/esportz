@@ -1,0 +1,12 @@
+.footer {
+    background-color: var(--background);
+}
+.footer .nav-link {
+    color: var(--link-color);
+}
+.footer .nav-link:hover {
+    color: var(--link-color--hover);
+}
+.footer p {
+    color: var(--link-color);
+}

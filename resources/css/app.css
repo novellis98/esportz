@@ -1,0 +1,38 @@
+@import "bootstrap";
+@import "bootstrap-icons";
+
+@import "./index.css";
+@import "./header.css";
+@import "./footer.css";
+@import "./chat.css";
+@import "./table.css";
+@import "./accordion.css";
+
+@font-face {
+    font-family: "Shantell Sans";
+    src: url("/assets/fonts/ShantellSans-Regular.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Shantell Sans";
+    src: url("/assets/fonts/ShantellSans-Bold.ttf") format("truetype");
+    font-weight: bold;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Crimson Text";
+    src: url("/assets/fonts/CrimsonText-Regular.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+html {
+    font-size: 100%;
+}
+body {
+    font-family: "Crimson Text", serif;
+}
+#review-body {
+    font-family: "Shantell Sans", sans-serif;
+}

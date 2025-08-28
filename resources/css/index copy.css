@@ -1,0 +1,171 @@
+:root {
+    --link-color: #4a3f35; /* Marrone scuro elegante */
+    --placeholder-input: #b0a58a; /* Beige caldo */
+    --link-color--hover: #f1b750; /* Oro caldo */
+    --background: #f8f6f3; /* Beige molto chiaro */
+    --background-secondary: #ffffff;
+    --background-tertiary: #e7dfd5; /* Beige raffinato */
+    --primary-color: #bb8c4a; /* Oro caldo sofisticato */
+    --secondary-color: #a89e8c; /* Beige freddo */
+    --button-green: #e0c78c; /* Oro tenue per i bottoni */
+    --button-green--hover: #d1b56d;
+    --button-sec: #9c7e65; /* Marrone caldo */
+    --button-sec--hover: #8a6b52;
+}
+
+.dark {
+    --link-color: #e0c78c; /* Oro chiaro per i testi */
+    --placeholder-input: #b0a58a;
+    --link-color--hover: #f1b750;
+    --background: #0e0e0e; /* Nero carbone */
+    --background-secondary: #1a1a1a;
+    --background-tertiary: #5b5b5b;
+    --primary-color: #bb8c4a;
+    --secondary-color: #a89e8c;
+    --button-green: #e0c78c;
+    --button-green--hover: #d1b56d;
+    --button-sec: #373737;
+    --button-sec--hover: #4a4a4a;
+}
+
+* {
+    color: var(--link-color) !important;
+}
+
+body {
+    background-color: var(--background); /* Sfondo di tinta unita elegante */
+}
+
+main {
+    min-height: 85vh;
+}
+
+.bg-custom {
+    background-color: var(--background-secondary);
+}
+
+.btn-custom {
+    background-color: var(--primary-color);
+    border: 1px solid var(--background-tertiary);
+    border-radius: 20px; /* Angoli leggermente arrotondati per un look premium */
+    padding: 8px 16px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-weight: 600;
+    text-transform: uppercase;
+    transition: all 0.3s ease-in-out;
+}
+
+.btn-custom:hover,
+.btn-custom:active,
+.btn-custom:focus {
+    background-color: var(--link-color--hover);
+    transform: translateY(-2px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.btn-custom--sec {
+    background-color: var(--button-sec);
+    border: 1px solid var(--background-tertiary);
+    border-radius: 20px;
+    padding: 8px 16px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-weight: 600;
+    text-transform: uppercase;
+    transition: all 0.3s ease-in-out;
+}
+
+.btn-custom--sec:hover,
+.btn-custom--sec:active,
+.btn-custom--sec:focus {
+    background-color: var(--button-sec--hover);
+    transform: translateY(-2px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.form-control {
+    background-color: var(--background-secondary);
+    border: 1px solid var(--background-tertiary);
+    border-radius: 8px;
+    transition: border-color 0.3s ease-in-out;
+}
+
+.form-control:focus {
+    background-color: var(--background-secondary);
+    border-color: var(--primary-color);
+}
+
+.form-control::placeholder {
+    color: var(--placeholder-input);
+}
+
+.accordion-button:not(.collapsed) {
+    background-color: var(--background);
+}
+
+.alert-custom {
+    background-color: #cba258; /* Oro caldo */
+    color: #ffffff !important;
+}
+
+.table * {
+    color: var(--secondary-color) !important;
+}
+
+.page-link {
+    background-color: var(--background);
+}
+
+.page-link:hover,
+.page-link:focus,
+.page-link:active {
+    background-color: var(--primary-color);
+}
+
+.page-link.disabled,
+.disabled > .page-link {
+    background-color: #ccc;
+}
+
+.page-link.active,
+.active > .page-link {
+    color: var(--button-green) !important;
+    transform: scale(1.05);
+    background-color: var(--background);
+    border: var(--bs-pagination-border-width) solid
+        var(--bs-pagination-border-color);
+}
+
+input[type="radio"] {
+    display: none;
+}
+
+.star-icon {
+    cursor: pointer;
+    transition: opacity 0.2s;
+}
+
+#table-trash {
+    color: rgb(183, 47, 47) !important;
+}
+
+#table-star {
+    color: #f1c40f !important; /* Giallo oro per la stella */
+}
+
+.text-warning {
+    color: var(--button-sec); /* Oro caldo */
+}
+
+.text-danger {
+    color: #e74c3c; /* Rosso profondo e formale */
+}
+
+a {
+    font-weight: 600;
+    text-decoration: none;
+}
+
+a:hover {
+    color: var(--link-color--hover);
+    text-decoration: underline;
+}
